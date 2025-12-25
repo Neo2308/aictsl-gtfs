@@ -1,0 +1,20 @@
+erroringStations: {}
+warningStations: {}
+updates: {}
+overrides:
+    "1127":
+        code: "1127"
+        name: Shikshak Nagar
+        lat: "22.72429000"
+        lng: "75.82648000"
+    "1832":
+        code: "1832"
+        name: Chandan Nagar
+        lat: "22.70725000"
+        lng: "75.82426000"
+    "4214":
+        code: "4214"
+        name: Nath Mandir
+        lat: "22.72108000"
+        lng: "75.87584000"
+ignoredTrains: []
