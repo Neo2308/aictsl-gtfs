@@ -9,7 +9,7 @@
 * 0 ignored buses
 
 **GTFS review report** (from [transport.data.gouv.fr](https://transport.data.gouv.fr/))
-https://transport.data.gouv.fr/validation/534753?token=dd02c877-a812-4db1-9ac0-81ed5a840ba2
+https://transport.data.gouv.fr/validation/536872?token=5293160a-2881-426a-b912-86c54ffe063f
 
 ## Users
 Coming soon :)
@@ -17,4 +17,8 @@ Coming soon :)
 
 ## Known issues
 * Timings for the buses are not accurate (source for start time is not available).
-* Assumes that each route has only 1 trip and that it starts at 9 AM. This is definitely incorrect but source data does not provide any better info.
+* Since bus timetable isn't available, an approximation is used to generate the trips.
+* Assumes that:
+  * Each route (up & down separate) has only 1 bus.
+  * Trips start at 9 AM and no trips take place after 9 PM
+* This is definitely incorrect but source data does not provide any better info.
